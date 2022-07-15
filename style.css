@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.nav{
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+#cart{
+    width: 300px;
+    height: auto;
+    background-color:cornsilk;
+    position: relative;
+    margin-left: 20px;
+    font-family: Kanit;
+    
+    transition: 0.2s;
+}
+
+#bilgi{
+    text-align: center;
+}
+#price{
+    text-align: center;
+}
+#shop{
+    display: inline-flex;
+    padding: 20px;
+    overflow-x:scroll;
+    width: 80%;
+    overflow-y: hidden;
+}
+
+#kaka{
+    font-family: "Poppins";
+}
+.buy{
+    border-radius: 10px;
+    border-color: cornflowerblue;
+    border-style:solid;
+    background-color: cornflowerblue;
+    padding: 9px;
+    padding-right: 9px;
+    padding-left: 9px;
+    transition:0.2s;
+    color: white;
+}
+.buy:hover{
+    border-style:dashed;
+    border-radius: 90px;
+    transform: rotate(10deg);
+    transform: scale(1.01,1.01);
+    cursor: pointer;
+}
+#cart:hover{
+    transform: rotate(10deg);
+    transform: scale(1.01,1.01);
+    cursor: pointer;
+}
+#eskifiyat{
+    color: red;
+    opacity: 0.5;
+    font-size: 10px;
+}
+.fav{
+    border-radius: 10px;
+    border-color:chocolate;
+    border-style:solid;
+    background-color: chocolate;
+    padding: 9px;
+    padding-right: 9px;
+    padding-left: 9px;
+    transition:0.2s;
+    color: white;
+    margin-top: 4px;
+}
+.share{
+    border-radius: 10px;
+    border-color:chocolate;
+    border-style:solid;
+    background-color: chocolate;
+    padding: 9px;
+    padding-right: 9px;
+    padding-left: 9px;
+    transition:0.2s;
+    color: white;
+    margin-top: 4px;
+
+}
+.sale{
+    background-color: red;
+    color: cornsilk;
+    transform: rotate(362.5deg);
+}
