@@ -111,3 +111,23 @@ body{
     transform: rotate(220deg);
 
 }
+#nav-about{
+    font-size: 20px;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px black solid;
+    transition: 0.4s;
+}
+#nav-about:hover{
+    color: cornsilk;
+    border-bottom: cornsilk ;
+}
+#aboutus{
+    max-width: 80%;
+    border: 2px gray solid ;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    font-family: "Kanit";
+}
