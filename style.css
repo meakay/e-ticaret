@@ -27,6 +27,7 @@ body{
 }
 #price{
     text-align: center;
+    font-size: 25px;
 }
 #shop{
     display: inline-flex;
@@ -96,4 +97,13 @@ body{
     background-color: red;
     color: cornsilk;
     transform: rotate(362.5deg);
+}
+.yıldız1{
+    font-size: 27px;
+}
+#belirt{
+    color: red;
+    font-size: 45px;
+    transform: rotate(220deg);
+
 }
