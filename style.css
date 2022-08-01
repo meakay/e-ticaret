@@ -80,6 +80,10 @@ body{
     color: white;
     margin-top: 4px;
 }
+.fav:hover{
+    cursor: pointer;
+    
+}
 .share{
     border-radius: 10px;
     border-color:chocolate;
